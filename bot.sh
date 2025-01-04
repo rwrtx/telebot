@@ -6,7 +6,7 @@ rm -rf cybervpn
 apt update && apt upgrade -y
 apt install python3 python3-pip -y
 apt install sqlite3 -y
-wget https://raw.githubusercontent.com/rwrtx/telebot/main/bot/cybervpn.zip
+wget https://raw.githubusercontent.com/rwrtx/telebot/main/cybervpn.zip
 unzip cybervpn.zip
 cd cybervpn
 rm var.txt
