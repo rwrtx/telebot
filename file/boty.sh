@@ -6,6 +6,7 @@ if [ $MYIP = $IZIN ]; then
 echo "IZIN DI TERIMA!!"
 else
 clear
+figlet "Akses di tolak!! Benget sia hurung!!" | lolcat
 exit 0
 fi
 
